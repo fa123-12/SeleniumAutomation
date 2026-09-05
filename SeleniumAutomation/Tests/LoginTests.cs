@@ -9,8 +9,8 @@ namespace SeleniumAutomation.Tests;
 [TestFixture]
 public class SwagTests
 {
-    private IWebDriver driver = null;
-    private LoginPage loginPage = null;
+    private IWebDriver? driver = null;
+    private LoginPage? loginPage = null;
 
     [SetUp]
     public void SetUp()

@@ -9,10 +9,10 @@ namespace SeleniumAutomation.Tests;
 [TestFixture]
 public class CartTests
 {
-    private IWebDriver driver = null;
-    private LoginPage loginPage = null;
-    private CartPage cartPage = null;
-    private ProductPage productPage = null;
+    private IWebDriver? driver = null;
+    private LoginPage? loginPage = null;
+    private CartPage? cartPage = null;
+    private ProductPage? productPage = null;
 
 
     [SetUp]
@@ -61,7 +61,7 @@ public class CartTests
     public void Check_url_next()
     {
         cartPage.Next_btn_click();
-        Assert.That(driver.Url, Does.Contain("cart.html"));
+        Assert.That(driver.Url, Does.Contain("inventory.html"));
     }
     [Test]
     public void Check_url_checkout()

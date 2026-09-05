@@ -9,9 +9,9 @@ namespace SeleniumAutomation.Tests;
 [TestFixture]
 public class ProductsTests
 {
-    private IWebDriver driver = null;
-    private ProductPage product_page = null;
-    private LoginPage loginPage = null;
+    private IWebDriver? driver = null;
+    private ProductPage? product_page = null;
+    private LoginPage? loginPage = null;
 
     [SetUp]
     public void SetUp()

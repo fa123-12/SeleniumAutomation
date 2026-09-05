@@ -10,11 +10,11 @@ namespace SeleniumAutomation.Tests;
 [TestFixture]
 public class CheckoutTests
 {
-    private IWebDriver driver = null;
-    private LoginPage loginPage = null;
-    private CartPage cartPage = null;
-    private ProductPage productPage = null;
-    private CheckoutPage checkoutPage = null;
+    private IWebDriver? driver = null;
+    private LoginPage? loginPage = null;
+    private CartPage? cartPage = null;
+    private ProductPage? productPage = null;
+    private CheckoutPage? checkoutPage = null;
 
 
     [SetUp]
