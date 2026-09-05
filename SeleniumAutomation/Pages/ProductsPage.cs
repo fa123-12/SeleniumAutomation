@@ -6,9 +6,9 @@ public class ProductPage
 {
 private IWebDriver driver;
     private By cart_cont = By.Id("cart_contents_container");
-    private By cartbtn = By.ClassName("shopping_cart_link");
-    private By filter = By.ClassName("product_sort_container");
-    private By items_name = By.ClassName("inventory_item_name ");
+    private By cartbtn = By.CssSelector(".shopping_cart_link");
+    //private By filter = By.CssSelector(".product_sort_container");
+    private By items_name = By.CssSelector(".inventory_item_name ");
     private By add_item1 = By.Id("add-to-cart-sauce-labs-bike-light");
     private By add_item2 = By.Id("add-to-cart-sauce-labs-backpack");
 
@@ -25,7 +25,7 @@ private IWebDriver driver;
     private By remove_item4 = By.Id("remove-sauce-sauce-labs-fleece-jacket");
     private By remove_item5 = By.Id("remove-sauce-sauce-labs-onesie");
     private By remove_item6 = By.Id("remove-sauce-test.allthethings()-t-shirt-(red)");
-    private By nb_items = By.ClassName("shopping_cart_badge");
+    private By nb_items = By.CssSelector(".shopping_cart_badge");
 
     public ProductPage(IWebDriver driver)
     {

@@ -7,7 +7,7 @@ public class CartPage
     private IWebDriver driver;
     private By next_btn = By.Id("continue-shopping");
     private By checkout_btn = By.Id("checkout");
-    private By title_page = By.ClassName("checkout-step-one");
+    private By title_page = By.CssSelector(".checkout-step-one");
 
     public CartPage(IWebDriver driver)
     {
